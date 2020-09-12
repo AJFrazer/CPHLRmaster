@@ -1,0 +1,37 @@
+{
+	"manifest_version": 2,
+
+	"name": "Mastersheet Maker",
+	"description": "Westlaw mastersheet maker",
+	"version": "1.0",
+	"author": "Alex",
+
+	"background": {
+		"scripts": ["popup.js", "credits.js", "state.js"],
+		"persistent": true
+	},
+	
+	"content_scripts": [
+		{
+		  "matches": ["*://*/*"],
+		  "js": ["state.js"]
+		},
+		{
+			"matches": ["*://*/*"],
+			"js": ["credits.js"]
+		  }
+	  ],
+	  
+	"permissions": [
+        "tabs",
+        "http://*/",
+		"https://*/",	
+		"storage",
+		"activeTab",
+		"fileSytem"
+    ],
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "popup.html"
+	}
+}

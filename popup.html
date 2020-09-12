@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Mastersheet Maker</title>
+	<script type="text/javascript" src="popup.js"></script>
+	<script type="text/javascript" src="credits.js"></script>
+    <style type="text/css">
+		body { width: 400px;}
+		body { height: 500px;}
+	  </style>
+  </head>
+
+<body>
+	<h3 id = 'titlee'>CPHLR Westlaw Citation/Credits Formatter.</h3>
+	<!-- <h4 id = 'lawTitle'>this should be a law title!</h4>
+	<p id = 'subtitle'>This should change!</p> -->
+	
+	<div id = 'mastersheetdiv' style = 'visibility: hidden'> 
+	<input id = 'mastersheet' type = "hidden" value = []>
+	</div>
+
+	<!-- <br> -->
+
+
+	<!-- <div id = textBox>
+		<textarea id = textField cols="45" rows="20" >
+This should change to your laws and credits!
+		</textarea>
+	</div> -->
+<div id = 'mainContent'>
+<p id = 'laws' contenteditable = "true">
+	Should update.
+</p>
+</div>
+
+
+
+
+<div id = 'button1'>
+		<button id = 'citeButton' type="button">Add citation</button>
+	</div>	
+	<br>
+
+	<div id = 'button2'>
+		<button id = 'clearButton' type="button">Clear?</button>
+
+	</div>
+
+<!-- <br>
+<div id = 'button3'>
+	<button id = 'dlButton' type="button">Download text file</button>
+</div>
+<br> -->
+
+<br>
+<div id = 'button3'>
+	<button id = 'copyButton' type="button">Copy all to clipboard</button>
+</div>
+<br>
+
+<br>
+<div id = 'button4'>
+	<button id = 'saveButton' type="button">Save changes</button>
+</div>
+<br>
+
+</body>
+</html>
