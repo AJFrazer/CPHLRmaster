@@ -1,5 +1,5 @@
 # CPHLRmaster
-<i>A google chrome plugin to collect and format Westlaw statutes into the CPHLR format with credit histories.</i>
+<i>A google chrome plugin to collect and format Westlaw statutes into the Temple University CPHLR policy surveillance format with credit histories.</i>
 
 Hello colleagues and friends!
 
