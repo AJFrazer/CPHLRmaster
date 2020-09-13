@@ -1,5 +1,5 @@
 # CPHLRmaster
-A google chrome plugin to collect and format Westlaw statutes into the CPHLR format with credit histories.
+<i>A google chrome plugin to collect and format Westlaw statutes into the CPHLR format with credit histories.</i>
 
 Hello colleagues and friends!
 
@@ -9,5 +9,4 @@ This chrome extension is very much a work in progress, but I figured I would spr
 
 <i><b>Future Plans:</b></i> Next up is setting up the regulations to format to the CPHLR formatting guidelines. I think it will take a while to figure out credit history for regulations in most states, as they are less consistent, and often require navigating to legislative history. Ang I guess maybe lexis one day? (lol can you even imagine?)
 
-<i>What else is next?</i> I am still trying to figure out how to move forward. I might encourage "Issue reporting" here on github. I might start a slack channel. I might just advise you to set up github accounts if you don't already have them, and then "watch" this repo for new version releases. I am also working on an <i>incredibly</i> simple tool to assist in building the law. So far I have only worked on removing extra spaces between words (a common problem with converting pdfs) and removing extra line breaks between paragraphs--but it would be great to hear other repetitive issues you encounter while building the law! In any case, I am always available on slack to discuss anything. 
-
+<b><i>What else is next?</i></b> I am still trying to figure out how to move forward. I might encourage "Issue reporting" here on github. I might start a slack channel. I might just advise you to set up github accounts if you don't already have them, and then "watch" this repo for new version releases. I am also working on an <i>incredibly</i> simple tool to assist in building the law. So far I have only worked on removing extra spaces between words (a common problem with converting pdfs) and removing extra line breaks between paragraphs--but it would be great to hear other repetitive issues you encounter while building the law! In any case, I am always available on slack to discuss anything. 
